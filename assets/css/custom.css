@@ -29,3 +29,18 @@ a.active {
    background-color: #FFFFFF;
    border-bottom: 6px solid #1b96fe;
 }
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+}
+
+/* Main content */
+.main {
+    margin-top: 120px; /* Add a top margin to avoid content overlay */
+}
